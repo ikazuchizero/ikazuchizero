@@ -3,9 +3,7 @@ def isascnum(s):
 
 num = input("半角数字を入力>>")
 
-TF = isascnum(num)
-
-if TF == True:
+if isascnum(num) == True:
   num = int(num)
   if num > 0:
     text = ""
