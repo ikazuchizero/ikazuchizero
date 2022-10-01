@@ -26,12 +26,10 @@ def highWave(wave,border):
 
 wave = input("waveを入力>>")
 
-TF = isascnum(wave)
-border = 45 #変更の可能性
-
-if TF == True:
+if isascnum(wave) == True:
   wave = int(wave)
   if wave > 0:
+    border = 45 #変更の可能性
     if wave <= border:
         card = lowWave(wave)
     if wave > border:
