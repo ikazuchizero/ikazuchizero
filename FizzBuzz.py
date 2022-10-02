@@ -8,9 +8,9 @@ if isascnum(num) == True:
   if num > 0:
     text = ""
     if num % 3 == 0:
-        text += ("Fizz")
+        text += "Fizz"
     if num % 5 == 0:
-        text += ("Buzz")
+        text += "Buzz"
     if text == "":
       text = num
 
